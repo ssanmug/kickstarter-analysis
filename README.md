@@ -1,4 +1,4 @@
-#Kickstarter Theatre Campaign Analysis 
+# Kickstarter Theatre Campaign Analysis 
 
 ## Overview of Project
 
@@ -14,7 +14,7 @@ In this analysis, we visualized campaign outcomes ("successful," "failed," and "
 
 The original dataset provided us with the length of each campaign with its start and end dates. We want to focus on the year of the launch dates, so we created a new column in our spreadsheet, "Years," and used the formula **=YEAR()** to extract the year from data in the "Date Created Conversion" column. The below screenshot provides an example of the formula in action. 
 
-![YEAR](Year.png)
+![YEAR](YEAR.png)
 
 Once we isolated the years, we generated a PivotTable using the following fields:
 
@@ -62,13 +62,19 @@ After completing the "Number Successful" column manually, I reviewed my class no
 
 ## Results
 
+### Outcomes Based on Launch Date
+
 From our analysis of Theatre Outcomes by Launch Date, we can conclude that the success of these campaigns peaks when launched in May and steadily declines as the year progresses, with December having the lowest number of successful campaigns launched in that month. Perhaps, this trend is a reflection of greater public interest in plays during late spring/summer. 
 
 We can also conclude that the number of failed campaigns follows a similar trend pattern over the year compared to the number of successful campaigns. Although the number of campaigns varies between the two outcomes, with each month having more successful launched campaigns than failed ones, both outcomes experience a similar rise in numbers during early spring, peaking in May and tapering off in the winter months. 
 
 Although both outcomes follow similar trends throughout the year, the number of successful campaigns at any month is still greater than the number of failed campaigns, suggesting that launch date is not the sole factor in determining a campaign's success. If launch date were the sole factor, then the successful and failed campaigns would not follow such similar trends. 
 
+### Outcomes Based on Goals
+
 From our analysis of outcomes based on goals, we can conclude that campaigns with funding goals under $19999 had the greatest success than campaigns with higher goals. We see the greatest percentages of successful campaigns paired with the lowest percentages of failed campaigns in this range. 
+
+### Limitations and Recommendations
 
 A possible limitation in the dataset used for our analysis could be that we did not account for different countries. Our dataset consisted of campaigns from multiple countries that may have varied public interest in theatres or plays, potentially skewing these campaigns' success or failure rates. A possible recommendation to further improve our analysis would be to create a PivotTable that filtered for "Country" to create multiple line graphs visualizing how funding goals affected the success of campaigns for plays.
 
