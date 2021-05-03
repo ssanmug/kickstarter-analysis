@@ -41,7 +41,7 @@ First, we designated the funding goal ranges that we wanted to compare. Using th
 2. The campaign had to fall under the specific outcome that we were counting for ("successful," "failed," or "cancelled")
 3. The campaign had to fall under the "Plays" subcategory
 
-Below is an example of the =COUNTIFS() formula used to count the number of successful campaigns with a funding goal range of less than $1000:
+Below is an example of the **=COUNTIFS()** formula used to count the number of successful campaigns with a funding goal range of less than $1000:
 
 ![COUNTIFS](COUNTIFS.png)
 
