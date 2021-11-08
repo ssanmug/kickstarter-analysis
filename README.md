@@ -25,11 +25,11 @@ Once we isolated the years, we generated a PivotTable using the following fields
 
 The below PivotTable is the result of the above fields, filtering for the "Theatre" parent category and organizing the columns in descending order:
 
-![LaunchDate_PivotTable](images/LaunchDate_PivotTable.png)
+<img src="images/LaunchData_PivotTable.png"  style="height:50%; width:50%">
 
 We want to look at the timeline of how the "Theatre" campaigns fared over the year, so we created the below line graph derived from our PivotTable:
 
-![Theatre_Outcomes_vs_Launch](images/Theatre_Outcomes_vs_Launch.png)
+<img src="images/Theatre_Outcomes_vs_Launch.png"  style="height:50%; width:50%">
 
 ### Analysis of Outcomes Based on Goals
 
@@ -43,15 +43,15 @@ First, we designated the funding goal ranges that we wanted to compare. Using th
 
 Below is an example of the **=COUNTIFS()** formula used to count the number of successful campaigns with a funding goal range of less than $1000:
 
-![COUNTIFS](images/COUNTIFS.png)
+<img src="images/COUNTIFS.png"  style="height:75%; width:75%">
 
 After performing the counts, we converted them into a percentage of total projects in each funding goal range that were "successful," "failed," or "cancelled." The below table summarizes the above analysis:
 
-![OutcomesCount](images/OutcomesCount.png)
+<img src="images/OutcomesCount.png"  style="height:75%; width:75%">
 
 To visualize the results, we created the below line graph to see how the percentage of outcomes varied as the funding goal range increased:
 
-![Outcomes_vs_Goals](images/Outcomes_vs_Goals.png)
+<img src="images/Outcomes_vs_Goals.png"  style="height:50%; width:50%">
 
 ### Challenges and Difficulties Encountered
 
