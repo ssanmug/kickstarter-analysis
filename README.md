@@ -14,7 +14,7 @@ In this analysis, we visualized campaign outcomes ("successful," "failed," and "
 
 The original dataset provided us with the length of each campaign with its start and end dates. We want to focus on the year of the launch dates, so we created a new column in our spreadsheet, "Years," and used the formula **=YEAR()** to extract the year from data in the "Date Created Conversion" column. The below screenshot provides an example of the formula in action. 
 
-![YEAR](images/YEAR.png)
+![YEAR](images/YEAR.png){:height="36px" width="36px"}
 
 Once we isolated the years, we generated a PivotTable using the following fields:
 
