@@ -25,7 +25,7 @@ Once we isolated the years, we generated a PivotTable using the following fields
 
 The below PivotTable is the result of the above fields, filtering for the "Theatre" parent category and organizing the columns in descending order:
 
-<img src="images/LaunchData_PivotTable.png"  style="height:50%; width:50%">
+<img src="images/LaunchDate_PivotTable.png"  style="height:50%; width:50%">
 
 We want to look at the timeline of how the "Theatre" campaigns fared over the year, so we created the below line graph derived from our PivotTable:
 
@@ -51,7 +51,7 @@ After performing the counts, we converted them into a percentage of total projec
 
 To visualize the results, we created the below line graph to see how the percentage of outcomes varied as the funding goal range increased:
 
-<img src="images/Outcomes_vs_Goals.png"  style="height:50%; width:50%">
+<img src="images/Outcomes_vs_Goals.png"  style="height:75%; width:75%">
 
 ### Challenges and Difficulties Encountered
 
