@@ -14,7 +14,7 @@ In this analysis, we visualized campaign outcomes ("successful," "failed," and "
 
 The original dataset provided us with the length of each campaign with its start and end dates. We want to focus on the year of the launch dates, so we created a new column in our spreadsheet, "Years," and used the formula **=YEAR()** to extract the year from data in the "Date Created Conversion" column. The below screenshot provides an example of the formula in action. 
 
-![YEAR](YEAR.png)
+![YEAR](images/YEAR.png)
 
 Once we isolated the years, we generated a PivotTable using the following fields:
 
@@ -25,11 +25,11 @@ Once we isolated the years, we generated a PivotTable using the following fields
 
 The below PivotTable is the result of the above fields, filtering for the "Theatre" parent category and organizing the columns in descending order:
 
-![LaunchDate_PivotTable](LaunchDate_PivotTable.png)
+![LaunchDate_PivotTable](images/LaunchDate_PivotTable.png)
 
 We want to look at the timeline of how the "Theatre" campaigns fared over the year, so we created the below line graph derived from our PivotTable:
 
-![Theatre_Outcomes_vs_Launch](Theatre_Outcomes_vs_Launch.png)
+![Theatre_Outcomes_vs_Launch](images/Theatre_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -43,15 +43,15 @@ First, we designated the funding goal ranges that we wanted to compare. Using th
 
 Below is an example of the **=COUNTIFS()** formula used to count the number of successful campaigns with a funding goal range of less than $1000:
 
-![COUNTIFS](COUNTIFS.png)
+![COUNTIFS](images/COUNTIFS.png)
 
 After performing the counts, we converted them into a percentage of total projects in each funding goal range that were "successful," "failed," or "cancelled." The below table summarizes the above analysis:
 
-![OutcomesCount](OutcomesCount.png)
+![OutcomesCount](images/OutcomesCount.png)
 
 To visualize the results, we created the below line graph to see how the percentage of outcomes varied as the funding goal range increased:
 
-![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](images/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
