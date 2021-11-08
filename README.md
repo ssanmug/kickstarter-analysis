@@ -1,6 +1,6 @@
 # Kickstarter Theatre Campaign Analysis
 
-##_**Module 1 Assignment for the University of Toronto's School of Continuing Studies (SCS) Data Analytics Boot Camp**_
+## _**Module 1 Assignment for the University of Toronto's School of Continuing Studies (SCS) Data Analytics Boot Camp**_
 
 ## Overview of Project
 
